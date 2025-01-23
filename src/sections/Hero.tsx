@@ -35,7 +35,7 @@ export const Hero = () => {
           >
             Hi, I'm a{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70">
-              Full Stack Developerx
+              Full Stack Developer
             </span>
           </motion.h1>
 
@@ -45,7 +45,9 @@ export const Hero = () => {
             transition={{ delay: 0.2 }}
             className="text-sm sm:text-base md:text-lg text-white/90 font-light max-w-2xl mx-auto mb-4 sm:mb-6"
           >
-            Full Stack developer with 3.5 years of experience, eager to grow, learn, and tackle real-world challenges.
+            My name is Harmanpreet Singh, I am a Full Stack developer with 3.5 years of experience, eager to grow, learn, and tackle real-world challenges.
+            
+
           </motion.p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-white/90">
