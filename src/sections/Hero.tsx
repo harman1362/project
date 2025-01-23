@@ -35,7 +35,7 @@ export const Hero = () => {
           >
             Hi, I'm a{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70">
-              Full Stack Developer
+              Full Stack Developerx
             </span>
           </motion.h1>
 
