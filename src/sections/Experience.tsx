@@ -16,27 +16,28 @@ export const Experience = () => {
               <div className="absolute left-8 w-1 h-full bg-blue-200 z-0" />
               <div className="space-y-8">
                 {[
+                  
+                  {
+                    title: "Full Stack Angular Developer",
+                    company: "Arethos Venture",
+                    period: "Jan 2021 – July 2022",
+                    location: "India",
+                    points: [
+                      "Developed reusable Angular components",
+                      "Integrated RESTful APIs with RxJS and NgRx",
+                      "Enhanced application performance"
+                    ]
+                  },
                   {
                     title: "Angular Developer",
-                    company: "Web Industrial Solutions",
-                    period: "Jan 2024 – Jan 2025",
-                    location: "Canada",
+                    company: "Info Viz Solutions",
+                    period: "Jan 2020 – dec 2020",
+                    location: "India",
                     points: [
                       "Architected and implemented reusable Angular components",
                       "Integrated robust APIs with RxJS and NgRx",
                       "Built responsive interfaces with Angular Material",
                       "Optimized performance with lazy loading and caching"
-                    ]
-                  },
-                  {
-                    title: "Full Stack Angular Developer",
-                    company: "Arethos Venture",
-                    period: "Jan 2021 – July 2022",
-                    location: "Mohali, India",
-                    points: [
-                      "Developed reusable Angular components",
-                      "Integrated RESTful APIs with RxJS and NgRx",
-                      "Enhanced application performance"
                     ]
                   }
                 ].map((experience, index) => (
@@ -58,7 +59,7 @@ export const Experience = () => {
                     field: "Web Development",
                     school: "",
                     period: "2023 – 2024",
-                    location: "Toronto, Canada",
+                    location: "Waterloo,Canada",
                     points: ["Advanced Web Development", "Full Stack Development"]
                   },
                   {
